@@ -1,0 +1,118 @@
+/* .header {
+    border: solid black; height: 50px;
+    background-color: blanchedalmond;
+    position: fixed;
+    width: 1217px;
+    top: 0.5%;
+    margin-left: 19.5px;
+
+}        
+
+
+
+
+
+
+
+ul {
+    display: flex;              
+    justify-content: space-between;
+    list-style: none;           
+    align-items: center;   
+
+}
+
+ li {
+    flex: 1;                   
+    text-align: center;         
+}
+
+.section {
+    display: flex;
+    gap: 20px;
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+}
+
+.section2 {
+    display: flex;
+    gap:10px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    border: solid salmon;
+    background-color: blanchedalmond;
+    margin-top: 15px;
+} */
+
+
+/* Hide the checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* Style the hamburger icon */
+.icon {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+  padding: 10px;
+  float: right;
+  margin-right: 20px;
+}
+
+/* Menu style for desktop */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+
+/* Each menu item equal width */
+.menu li {
+  flex: 1;
+  text-align: center;
+}
+
+/* Responsive behavior */
+@media screen and (max-width: 768px) {
+  .icon {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 50px; /* adjust if your header height changes */
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  /* When checkbox is checked, show the menu */
+  #menu-toggle:checked + .icon + .menu {
+    display: flex;
+  }
+
+  .menu li {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+
+  .header {
+    height: auto;
+    width: 100%;
+    margin-left: 0;
+  }
+}

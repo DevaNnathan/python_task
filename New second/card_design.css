@@ -1,0 +1,65 @@
+*{
+   font-family: sans-serif;
+}
+body{
+    background-image: url("bgimage.jpg");
+}
+
+.Title{
+    text-align:center;
+    color: white;
+   
+    
+}
+
+.undert{
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+
+#outline{
+  width: 850px;
+  height: 360px;
+  margin:auto;
+  display: flex;
+}
+
+.first{
+  width: 260px;
+  height:300px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.head{
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.image{
+
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.para{
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  text-align: left;
+  margin-bottom:5px;
+  margin-top: 5px;
+  font-size: smaller;
+  font-style: italic;
+}
+
+.button{
+  width: 80px;
+  height: 27px;
+  background-color: rgb(202, 63, 63);
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+  margin-top: 7px;
+}
+
+
