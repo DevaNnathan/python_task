@@ -1,0 +1,24 @@
+.master {
+    border: solid blue; height: 1000px;
+    border-width: 100%;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.section1 {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Or set a specific height like 300px */
+    overflow: hidden;
+}
+
+.section1 img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
